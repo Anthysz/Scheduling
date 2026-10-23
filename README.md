@@ -7,7 +7,7 @@ Inspired by KAMITSUBAKI STUDIO. (I'm a Big fan of Isekaijoucho!)
 > All code is written by me.
 
 ## Status
-Early development. The database schema is drafted ([schema.sql](schema.sql)); no application code yet.
+Early development. The database schema is drafted ([table.sql](./database/table.sql)); no application code yet.
 
 ## Planned features
 - Artist schedules (concerts, recordings, streams)
@@ -16,5 +16,6 @@ Early development. The database schema is drafted ([schema.sql](schema.sql)); no
 - Birthday and debut anniversary reminders
 
 ## Tech
-- PostgreSQL
-- ASP.NET 10 BackEnd API
+- Backend: ASP.NET Core (C#)
+- Frontend: Next.js (TypeScript)
+- Database: PostgreSQL
