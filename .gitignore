@@ -1,0 +1,10 @@
+.db_password
+.env
+.env.*
+!.env.example
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+backend/**/bin/
+backend/**/obj/
+backend/**/appsettings.*.json
